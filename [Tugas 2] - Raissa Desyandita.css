@@ -1,0 +1,117 @@
+
+h2{
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+h4{
+  font-style: italic;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+h5{
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 0em;
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+h6{
+  text-align: justify;
+  font-stretch: wider;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 2em;
+  font-display: flex;
+  text-decoration: thistle;
+  font-family: sans-serif;
+}
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+}
+
+#about{
+  min-height: 100vh;
+  padding: 0 30px;
+}
+
+.container-fluid{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-top: 3em;
+  padding-left: 7em;
+  padding-bottom: 2em;
+  padding-right: 7em;
+  justify-content: center;
+  text-align: justify;
+}
+.jumbotron{
+  background-color: linen;
+  background-size: cover;
+  height: 350px
+  text-align: left;
+}
+.jumbotron p{
+  color: black;
+  font-size: 20px;
+}
+.jumbotron .btn{
+  background-color: mediumpurple;
+  border-radius: 10px;
+  border: none;
+}
+
+.carousel-item{
+  height: auto;
+}
+.carousel-item img{
+  margin-top: -120px;
+  height: 750px;
+}
+
+
+.myself{
+  width: 250px;
+  padding-left: 4em;
+  margin-left: 22em;
+}
+.myself_2{
+  width: 300px;
+  height: 400px;
+  display: inline-flex;
+}
+.social-media{
+  height: 50px;
+  width: 50px;
+}
+
+.social-media-icon{
+  height: 50px;
+  width: 50px;
+  margin-top: 8px;
+  margin-right: 8px;
+  display: flexbox;
+  align-items: baseline;
+}
+
+
+.label{
+  margin-left: 2em;
+}
+.form-control{
+  width: 250px;
+  height: 50px;
+  border-style: double;
+  border-color: black;
+  margin-left: 0;
+}
+
+footer{
+  background-color: linen;
+  text-justify: auto;
+  height: 2em;
+  display: inline-flex;
+  text-align: justify;
